@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pw</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="tech-header">
+        <a href="#" class="logo-link">
+            <img src="logo_verde.png" alt="Logo" class="tech-logo">
+            <span class="logo-glow"></span>
+        </a>
+    </header>
+    <div class="header-line"></div>
+    <main>
+        <div class="testo-centrato">
+            <h2 class="occupiamo-title">DI COSA CI OCCUPIAMO?</h2>
+            <p class="descrizione-progetto">
+                Il nostro progetto nasce dalla passione per l'innovazione e la tecnologia. Ci occupiamo di sviluppare soluzioni hardware e software che uniscono creatività e funzionalità, con un focus particolare su Arduino e Python. Il nostro obiettivo è creare un sistema di gestione del segnale GPS tramite Arduino e Nano, progettato per supportare la guardia forestale nel monitoraggio e nella protezione delle aree naturali. Collaboriamo come team per trasformare idee in realtà, affrontando ogni sfida con entusiasmo e determinazione.
+            </p>
+            <h2 class="occupiamo-title">COME FUNZIONA?</h2>
+            <p class="descrizione-progetto">
+                Il sistema utilizza un modulo GPS collegato a una scheda Arduino Nano per acquisire le coordinate geografiche. I dati vengono elaborati tramite un software sviluppato in Python, che permette di visualizzare la posizione su una mappa completamente offline. Questo strumento è progettato per tenere traccia ogni minuto della posizione della persona interessata, aiutando la guardia forestale a monitorare le aree protette in modo efficiente e tempestivo.
+            </p>
+        </div>
+        <details class="tendina">
+            <summary class="custom-summary">Sviluppo hardware</summary>
+            <h2 class="tech-title">Arduino e modulo lora</h2>
+            
+            <div class="box-container">
+                <div class="left-column">
+                    <div class="box-row">
+                        <div class="small-box">
+                            <img src="ricevitore3.jpg" alt="Modulo ricevitore" class="box-img">
+                            <div class="box-content">
+                                <h3>Ricevitore</h3>
+                                <p>Modulo ricevente Lora</p>
+                            </div>
+                        </div>
+                        <div class="large-box">
+                            <img src="ricevi.jpg" alt="Processo ricezione" class="box-img">
+                            <div class="box-content">
+                                <h3>Processo Ricezione</h3>
+                                <p>Flusso di dati in entrata</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="box-row">
+                        <div class="small-box">
+                            <img src="trasmettitore .jpg" alt="Modulo trasmettitore" class="box-img">
+                            <div class="box-content">
+                                <h3>Trasmettitore</h3>
+                                <p>Modulo trasmittente Lora</p>
+                            </div>
+                        </div>
+                        <div class="large-box">
+                            <img src="trasmettitore2.jpg" alt="Processo trasmissione" class="box-img">
+                            <div class="box-content">
+                                <h3>Processo Trasmissione</h3>
+                                <p>Flusso di dati in uscita</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-box">
+                    <div class="box-content">
+                        <h3>Come funziona?</h3>
+                        <p>Il sistema Arduino-LoRa-GPS costituisce una soluzione tecnologica autonoma per il tracciamento in aree non coperte da reti tradizionali basandosi sull'integrazione di un modulo GPS per l'acquisizione delle coordinate geografiche e un transceiver LoRa per la trasmissione dei dati a lunga distanza con consumo energetico ridotto  
+
+                            La stazione ricevente elabora i pacchetti dati trasmessi dai dispositivi portatili visualizzando le posizioni su mappa in tempo reale garantendo continuità operativa anche in condizioni ambientali critiche grazie alla robustezza del protocollo LoRa  
+                            
+                            I vantaggi principali risiedono nell'indipendenza dalle infrastrutture di rete nella scalabilità del sistema e nella possibilità di integrare ulteriori sensori per il monitoraggio ambientale rendendo la soluzione adatta a scenari di emergenza attività outdoor e applicazioni industriali in zone isolate</p>
+                    </div>
+                    <div class="right-img-container">
+                    </div>
+                </div>
+            </div>
+        </details>
+            <details class="tendina">
+                <summary class="custom-summary">Sviluppo software</summary>
+                <h2 class="tech-title">Arduino, python e docker container</h2>
+                    <div class="tech-container">
+                        <div class="tech-item">
+                            <img src="icons8-arduino-500.png" alt="Arduino" class="logo-image">
+                        <div class="tech-text-box">IDE Arduino<br>Linguaggio C arduino<br>Microcontrollori che forniscono coordinate grezze <br>dalla porta seriale a cui l'Hardware è collegato via USB</div>
+                    </div>
+                        <div class="tech-item">
+                            <img src="icons8-python-480.png" alt="Python" class="logo-image">
+                        <div class="tech-text-box">Scripting<br>Elaborazione coordinate e creazione database<br>Raccoglie dati seriali e li trasforma in coordinate<br> da inviare al server tramite formato csv</div>
+                    </div>
+                        <div class="tech-item">
+                        <img src="icons8-portacarichi-240.png" alt="Docker" class="logo-image">
+                    <div class="tech-text-box">Container<br>Isolamento<br>Ambiente su cui sono presenti le dipendenze <br> come la mappa dove verranno tracciate le coordinate</div>
+                </div>
+            </div>
+            </details>
+            <details class="tendina">
+                <summary class="custom-summary">Presentazione slide</summary>
+                <h2 class="tech-title">Allegato slide presentazione 09/04/24</h2>
+                
+                <div class="video-box">
+                    <video controls width="100%">
+                        <source src="03.mp4" type="video/mp4">
+                        Il tuo browser non supporta il tag video.
+                    </video>
+                </div>
+                            
+                <div class="download-box">
+                    <div class="file-info">
+                        <div class="file-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z"/></svg>
+                        </div>
+                        <div class="file-details">
+                            <h3>Presentazione completa</h3>
+                            <p>File PDF - 2.4 MB</p>
+                        </div>
+                    </div>
+                    <a href="Reti.pdf" download class="download-button">
+                        Download
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+                    </a>
+                </div>
+            </details>
+    </main>
+    <footer id="footer">
+        <h2>IL TEAM</h2>
+        <div class="footer-box-container">
+            <div class="footer-item">
+                <div class="footer-box">
+                    <img src="davide.jpg" alt="Davide Bonamini" class="team-image">
+                </div>
+                <p class="footer-letter">"D"</p>
+                <p class="footer-text">Davide Bonamini<br>davide.bonamini99@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <div class="footer-box">
+                    <img src="io.jpg" alt="Andrea Guarino" class="team-image">
+                </div>
+                <p class="footer-letter">"A"</p>
+                <p class="footer-text">Andrea Guarino<br>andrea.guarino2002@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <div class="footer-box">
+                    <img src="mm.jpg" alt="Matteo Marcolongo" class="team-image">
+                </div>
+                <p class="footer-letter">"M"</p>
+                <p class="footer-text">Matteo Marcolongo<br>matteo.marcolongo04@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <div class="footer-box">
+                    <img src="matteo.jpg" alt="Matteo Todesco" class="team-image">
+                </div>
+                <p class="footer-letter">"M"</p>
+                <p class="footer-text">Matteo Todesco<br>matteo.todesco@outlook.com</p>
+            </div>
+            <div class="footer-item">
+                <div class="footer-box">
+                    <img src="safari.jpg" alt="Nicolò Ranasinghe" class="team-image">
+                </div>
+                <p class="footer-letter">"N"</p>
+                <p class="footer-text">Nicolò Ranasinghe<br>ranasinghe.nicolo@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        if (window.location.hash) {
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 1);
+        }
+    </script>
+</body>
+</html>
